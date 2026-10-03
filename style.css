@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1f2937;background:#f8fafc;line-height:1.7}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}a{color:#0f766e}.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px}
+.site-header{background:#0f172a}.site-header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;padding:12px 16px}
+.brand{color:#fff;font-weight:700;text-decoration:none;font-size:1.15rem}.logo{display:inline-block;background:#14b8a6;color:#0f172a;border-radius:6px;padding:0 8px;margin-right:6px}
+nav a{color:#cbd5e1;text-decoration:none;margin-right:14px;font-size:.95rem}nav a:hover{color:#fff}
+main{padding-top:24px;padding-bottom:40px}h1{font-size:1.9rem;line-height:1.25}h2{margin-top:2rem}
+.hero{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:24px;margin-bottom:8px}
+.btn{display:inline-block;background:#0f766e;color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;margin-right:8px}.btn.alt{background:#fff;color:#0f766e;border:1px solid #0f766e}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{display:block;background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:16px;text-decoration:none;color:inherit}.card:hover{border-color:#14b8a6}
+.card h3{margin:6px 0;font-size:1.05rem}.card p{margin:0 0 8px;font-size:.93rem;color:#475569}.tag{font-size:.75rem;color:#0f766e;font-weight:700;text-transform:uppercase}.more{color:#0f766e;font-size:.9rem}
+.post{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:20px}.crumb,.meta{font-size:.85rem;color:#64748b}
+.tablewrap{overflow-x:auto;margin:14px 0}table{border-collapse:collapse;width:100%;font-size:.95rem}th,td{border:1px solid #e2e8f0;padding:8px 10px;text-align:left;vertical-align:top}th{background:#f1f5f9}
+.note{background:#fef9c3;border-left:4px solid #eab308;padding:10px 14px;font-size:.92rem}code{background:#f1f5f9;padding:2px 5px;border-radius:4px}
+.ad-slot{margin:18px 0;text-align:center;overflow:hidden}
+.site-footer{background:#0f172a;color:#cbd5e1;padding:24px 0}.site-footer a{color:#cbd5e1;margin-right:14px}.small{font-size:.85rem}
+@media(max-width:600px){h1{font-size:1.5rem}}
